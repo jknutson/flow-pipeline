@@ -59,7 +59,7 @@ Clone the repository, then run the following (for Postgres):
 
 ```
 $ cd compose
-$ docker-compose -f docker-compose-postgres-mock.yaml
+$ docker-compose -f docker-compose-postgres-mock.yml
 ```
 
 Wait a minute for all the components to start.
@@ -73,13 +73,13 @@ If you want to send sFlow/NetFlow/IPFIX to a GoFlow, run the following:
 Using Postgres:
 ```
 $ cd compose
-$ docker-compose -f docker-compose-postgres-collect.yaml
+$ docker-compose -f docker-compose-postgres-collect.yml
 ```
 
 Using Clickhouse (see next section):
 ```
 $ cd compose
-$ docker-compose -f docker-compose-clickhouse-collect.yaml
+$ docker-compose -f docker-compose-clickhouse-collect.yml
 ```
 
 Keep in mind this is a development/prototype setup.
